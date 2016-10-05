@@ -1,6 +1,6 @@
 {
   "name": "heweather",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a heweathor api",
   "main": "src/index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "heweather",
-    "api"
+    "api",
+    "weather"
   ],
   "author": "lyuke <lk11nju@gmail.com>",
   "license": "MIT",

@@ -26,6 +26,15 @@ function getWeatherByCityID(cityID){
 
 }
 
+function getWeatherByAttractions(cityid){
+
+}
+
+
+
+
+
 module.exports={
-    getWeatherByCityID:getWeatherByCityID
+    getWeatherByCityID:getWeatherByCityID,
+    //getWeatherByAttractions:getWeatherByAttractions
 };
