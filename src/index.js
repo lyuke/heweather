@@ -1,9 +1,9 @@
 const http = require('http');
 const https = require('https');
 
-function getWeatherByCity(city){
+function getWeatherByCityID(cityID){
 
-  let url='https://api.heweather.com/x3/weather?city='+city+'&key=881fb039c6954d73a86182bd6229f301';
+  let url='https://api.heweather.com/x3/weather?cityid='+cityID+'&key=881fb039c6954d73a86182bd6229f301';
 
   return new Promise(function(resolve,reject){
 
@@ -27,5 +27,5 @@ function getWeatherByCity(city){
 }
 
 module.exports={
-    getWeatherByCity:getWeatherByCity
+    getWeatherByCityID:getWeatherByCityID
 };
