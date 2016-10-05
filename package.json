@@ -1,0 +1,25 @@
+{
+  "name": "heweather",
+  "version": "1.0.0",
+  "description": "a heweathor api",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyuke/heweather.git"
+  },
+  "keywords": [
+    "heweather",
+    "api"
+  ],
+  "author": "lyuke <lk11nju@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lyuke/heweather/issues"
+  },
+  "homepage": "https://github.com/lyuke/heweather#readme",
+  "dependencies": {
+  }
+}
