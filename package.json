@@ -1,6 +1,6 @@
 {
   "name": "heweather",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a heweathor api",
   "main": "src/index.js",
   "scripts": {
