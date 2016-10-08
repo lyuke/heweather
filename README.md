@@ -14,5 +14,18 @@ p.then((res)=>{
 },(err)=>{
   // deal with the error;
 });
+
+
+const A=weather.getWeatherByAttractions('cityID');
+
+p.then((res)=>{
+
+  },(err)=>{
+
+    });
 ```
-[cn cityID list](http://www.heweather.com/documents/cn-city-list);
+
+
+cityIDs are as below
+[CityID list](http://www.heweather.com/documents/cn-city-list);
+[Attractions list](http://www.heweather.com/documents/cn-attractions-list)
